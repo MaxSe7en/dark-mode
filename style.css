@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    
+    font-family: fantasy;
+    margin: 0;
+    
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 10px;
+    transition: ease-in 300ms;
+}
+.wrapper.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 10px;
+    background-color: rgb(58, 57, 57);
+    color: rgb(245, 245, 245);
+    transition: ease-in 300ms;
+}
+
+button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
